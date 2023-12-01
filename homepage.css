@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     background-image: url("background\ image.png");
+}
+h3{
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 13px;
+}
+#logo{
+    position: absolute;
+    top: 0;
+    width: 70px;
+    mix-blend-mode: multiply; 
+}
+
+#block{
+position: absolute;
+left: 500px;
+width: 450px;
+top: 7px;
+}
+
+#inputbox{
+    position: absolute;
+    left: 520px;
+    top: 60%;
+}
+
+#name{
+    text-align: center;
+    font-size:30px;
+    width: 450px;
+    height: 65px;
+    border-radius: 15px;
+}
+#input-box2{
+    position: absolute;
+    left: 520px;
+    top: 70%;
+}
+#nick-name{
+    text-align: center;
+    font-size:30px;
+    width: 450px;
+    height: 65px;
+    border-radius: 15px;
+}
+#start-button{
+    font-size: 20px;
+    width: 150px;
+    height: 60px;
+    border-radius: 25px;
+    position: absolute;
+    top: 80%;
+    left: 47%;
+    background-color:gray;
+}
+
+#sound{
+    width: 70px;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    mix-blend-mode: multiply; 
+}
+#sound-btn{
+    position: absolute;
+    bottom: 0;
+    width: 90px;
+    height: 70px;
+   
+}
+#instruction{
+    width: 70px;
+    position: absolute;
+    left: 7%;
+    bottom: 0;
+    mix-blend-mode: multiply; 
+}
+#instructionbtn{
+    position: absolute;
+    bottom: 0;
+    left: 6.5%;
+    width: 85px;
+    height: 70px;
+}
+#exit{
+    width: 60px;
+    position:absolute;
+    right: 8px;
+    bottom: 5px;
+    mix-blend-mode: darken; 
+}
+#exitbtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    height: 70px;
+}
